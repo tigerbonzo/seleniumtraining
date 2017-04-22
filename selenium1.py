@@ -14,8 +14,6 @@ valid_password = "adam1234"
 
 class TestWpPoczta(unittest.TestCase):
 
-
-
     def setUp(self):
         self.driver = webdriver.Chrome()
         driver = self.driver
